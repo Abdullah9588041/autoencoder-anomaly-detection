@@ -1,0 +1,19 @@
+# Raw dataset (102 MB) — fetch with `python data/download.py`
+data/creditcard.csv
+data/*.parquet
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
